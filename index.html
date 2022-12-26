@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+    <title>Js is cool!</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper_popup popup hidden">
+            <div>
+                <p class="popup_p">Enter the number of balls from 1 to 5:</p>
+                <form name="amountBalls">
+                    <input type="text" name="amount" placeholder="Enter your number" value="0"/>
+                    <input type="submit" value="submit"/>
+                </form>
+            </div>
+        </div>
+
+        <div class="wrapper_direction">
+            <h1>Click on the ChristmasTree and enter the number of balls from 1 to 5</h1>
+
+            <div class="wrapper_tree">
+                <img src="img/ChristmasTree.png" class="tree" alt="NOooooo">
+            </div>
+
+            <div class="wrappper-balls hidden" id="ball_wrap"></div>
+        </div>
+    </div>
+
+<script src="js/index.js"></script>
+</body>
+</html>

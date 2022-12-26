@@ -1,0 +1,60 @@
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-size: auto auto;
+}
+
+.tree {
+    width: 500px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.ball {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_direction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    background-color: rgb(247, 29, 29);
+    opacity: 100;
+    padding: 10px;
+}
+
+.popup_p {
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
