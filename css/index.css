@@ -48,6 +48,8 @@ body {
     background-color: rgb(247, 29, 29);
     opacity: 100;
     padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
 }
 
 .popup_p {
