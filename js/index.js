@@ -72,7 +72,7 @@ function christmas() {
             ball_wrap.append(ball)
         }
 
-    } else if (num < 3) {
+    } else if (num <= 3) {
         let handlerPlusY1 = 0;
         let handlerPlusX1 = 0;
 
